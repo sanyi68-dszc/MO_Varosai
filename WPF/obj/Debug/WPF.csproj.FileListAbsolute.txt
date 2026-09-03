@@ -1,0 +1,15 @@
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\bin\Debug\WPF.exe.config
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\bin\Debug\WPF.exe
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\bin\Debug\WPF.pdb
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\MainWindow.g.cs
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\App.g.cs
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF_MarkupCompile.cache
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF_MarkupCompile.lref
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\MainWindow.baml
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.g.resources
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.Properties.Resources.resources
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.exe
+C:\Users\tanulo\source\repos\MO_Varosai\WPF\obj\Debug\WPF.pdb

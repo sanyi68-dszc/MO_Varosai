@@ -1,0 +1,42 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="Magyar Város v1.0" Height="800" Width="650" WindowStartupLocation="CenterScreen" Background="LightGray">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="60*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Fejléc-->
+        <TextBlock Text="Magyarország városai" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="DemiBold"/>
+        <!--Bal oldal-->
+        <ListBox Name="LB_Varosok" Grid.Row="1" Grid.Column="0" Padding="5" Margin="5" SelectionChanged="LB_Varosok_SelectionChanged"/>
+        <!--Jobb oldal-->
+        <StackPanel Margin="5" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center">
+            <GroupBox Header="Keresés" FontSize="16" FontWeight="DemiBold" Background="Beige">
+                <StackPanel>
+                    <TextBox Name="TBx_Keres" Padding="5" FontSize="16" FontWeight="DemiBold"/>
+                    <Button Name="BT_Keres" Content="Keresés" FontSize="16" FontWeight="DemiBold" Margin="0 5 0 5" Background="SandyBrown" IsDefault="True" Cursor="Hand" Click="BT_Keres_Click"/>
+                    <Button Name="BT_UjKeres" Content="Új Keresés" FontSize="16" FontWeight="DemiBold" Margin="0 5 0 5" Background="SaddleBrown" Cursor="Hand" Click="BT_UjKeres_Click"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Városadatok" FontSize="16" FontWeight="DemiBold" Background="LightGray" Margin="0 50 0 0">
+                <StackPanel>
+                    <TextBlock Name="TBl_Varos" Text="Város:" FontSize="16" Padding="5"/>
+                    <TextBlock Name="TBl_Jaras" Text="Járás:" FontSize="16" Padding="5"/>
+                    <TextBlock Name="TBl_Kisterseg" Text="Kistérség:" FontSize="16" Padding="5"/>
+                    <TextBlock Name="TBl_Nepesseg" Text="Népesség:" FontSize="16" Padding="5"/>
+                    <TextBlock Name="TBl_Terulet" Text="Terület:" FontSize="16" Padding="5"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>
